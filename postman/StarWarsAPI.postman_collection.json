@@ -1,0 +1,5701 @@
+{
+	"info": {
+		"_postman_id": "8d5aa111-cbf9-40d9-8ba2-7a781e3a628e",
+		"name": "StarWarsAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Root",
+			"item": [
+				{
+					"name": "root",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "People",
+			"item": [
+				{
+					"name": "http://swapi.dev/api/people/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/1",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/2",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/3",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/4",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/4",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/5",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/6",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/7",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/7",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/8",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/8",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/9",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/9",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/10",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/10",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"10"
+							],
+							"query": [
+								{
+									"key": "format",
+									"value": "wookiee",
+									"disabled": true
+								},
+								{
+									"key": "format",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/11",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/11",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/12",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/12",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/13",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/13",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"13"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/14",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/14",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"14"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/15",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/15",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"15"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/16",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/16",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"16"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/18",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/18",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"18"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/19",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/19",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"19"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/20",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/20",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"20"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/21",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/21",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"21"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/22",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/22",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"22"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/23",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/23",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"23"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/24",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/24",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"24"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/25",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/25",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"25"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/26",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/26",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"26"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/27",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/27",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"27"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/28",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/28",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"28"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/29",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/29",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"29"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/30",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/30",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"30"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/31",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/31",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"31"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/32",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/32",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"32"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/33",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/33",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"33"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/34",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/34",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"34"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/35",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/35",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"35"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/36",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/36",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"36"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/37",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/37",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"37"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/38",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/38",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"38"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/39",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/39",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"39"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/40",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/40",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"40"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/41",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/41",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"41"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/42",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/42",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"42"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/43",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/43",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"43"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/44",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/44",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"44"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/45",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/45",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"45"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/46",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/46",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"46"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/47",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/47",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"47"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/48",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/48",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"48"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/49",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/49",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"49"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/50",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/50",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"50"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/51",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/51",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"51"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/52",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/52",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"52"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/53",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/53",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"53"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/54",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/54",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"54"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/55",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/55",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"55"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/56",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/56",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"56"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/57",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/57",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"57"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/58",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/58",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"58"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/59",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/59",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"59"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/60",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/60",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"60"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/61",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/61",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"61"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/62",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/62",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"62"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/63",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/63",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"63"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/64",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/64",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"64"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/65",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/65",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"65"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/66",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/66",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"66"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/67",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/67",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"67"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/68",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/68",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"68"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/69",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/69",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"69"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/70",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/70",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"70"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/71",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/71",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"71"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/72",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/72",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"72"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/73",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/73",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"73"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/74",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/74",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"74"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/75",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/75",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"75"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/76",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/76",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"76"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/77",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/77",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"77"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/78",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/78",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"78"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/79",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/79",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"79"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/80",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/80",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"80"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/81",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/81",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"81"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/82",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/83",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"83"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/people/83",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/people/83",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								"83"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Films",
+			"item": [
+				{
+					"name": "http://swapi.dev/api/films/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/films/",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"films",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/films/1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/films/1",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"films",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/films/2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/films/2",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"films",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/films/3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/films/3",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"films",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/films/4",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/films/4",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"films",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/films/5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/films/5",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"films",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/films/6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/films/6",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"films",
+								"6"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Planets",
+			"item": [
+				{
+					"name": "http://swapi.dev/api/planets",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/1",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/2",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/3",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/4",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/4",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/5",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/6",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/7",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/7",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/8",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/8",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/9",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/9",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/10",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/10",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/11",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/11",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/12",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/12",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/13",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/13",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"13"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/14",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/14",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"14"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/15",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/15",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"15"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/16",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/16",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"16"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/17",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/17",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"17"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/18",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/18",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"18"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/19",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/19",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"19"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/20",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/20",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"20"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/21",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/21",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"21"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/22",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/22",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"22"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/23",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/23",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"23"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/24",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/24",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"24"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/25",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/25",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"25"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/26",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/26",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"26"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/27",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/27",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"27"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/28",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/28",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"28"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/29",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/29",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"29"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/30",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/30",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"30"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/31",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/31",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"31"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/32",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/32",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"32"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/33",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/33",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"33"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/34",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/34",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"34"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/35",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/35",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"35"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/36",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/36",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"36"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/37",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/37",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"37"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/38",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/38",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"38"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/39",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/39",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"39"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/40",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/40",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"40"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/41",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/41",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"41"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/42",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/42",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"42"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/43",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/43",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"43"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/44",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/44",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"44"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/45",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/45",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"45"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/46",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/46",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"46"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/47",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/47",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"47"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/48",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/48",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"48"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/49",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/49",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"49"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/50",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/50",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"50"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/51",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/51",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"51"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/52",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/52",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"52"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/53",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/53",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"53"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/54",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/54",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"54"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/55",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/55",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"55"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/56",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/56",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"56"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/57",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/57",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"57"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/58",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/58",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"58"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/59",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/59",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"59"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/planets/60",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/planets/60",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								"60"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/2",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "species",
+			"item": [
+				{
+					"name": "http://swapi.dev/api/species",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/1",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/2",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/3",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/4",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/4",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/5",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/6",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/7",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/7",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/8",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/8",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/9",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/9",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/10",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/10",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/11",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/11",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/12",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/12",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/13",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/13",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"13"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/14",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/14",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"14"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/15",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/15",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"15"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/16",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/16",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"16"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/17",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/17",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"17"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/18",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/18",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"18"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/19",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/19",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"19"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/20",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/20",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"20"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/21",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/21",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"21"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/22",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/22",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"22"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/23",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/23",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"23"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/24",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/24",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"24"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/25",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/25",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"25"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/26",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/26",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"26"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/27",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/27",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"27"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/28",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/28",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"28"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/29",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/29",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"29"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/30",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/30",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"30"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/31",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/31",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"31"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/32",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/32",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"32"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/33",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/33",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"33"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/34",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/34",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"34"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/35",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/35",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"35"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/36",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/36",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"36"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/species/37",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/species/50",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								"50"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "starships",
+			"item": [
+				{
+					"name": "http://swapi.dev/api/starships",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/2",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/3",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/5",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/9",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/9",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/10",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/10",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/11",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/11",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/12",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/12",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"12"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/13",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/13",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"13"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/15",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/15",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"15"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/17",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/17",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"17"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/21",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/21",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"21"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/22",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/22",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"22"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/23",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/23",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"23"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/27",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/27",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"27"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/28",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/28",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"28"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/29",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/29",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"29"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/31",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/31",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"31"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/32",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/32",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"32"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/36",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/36",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"36"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/39",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/40",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"40"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/40",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/40",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"40"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/41",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/41",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"41"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/43",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/43",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"43"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/47",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/48",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"48"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/48",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/48",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"48"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/49",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/49",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"49"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/52",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/52",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"52"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/58",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/58",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"58"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/59",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/59",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"59"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/61",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/61",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"61"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/63",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/63",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"63"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/64",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/64",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"64"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/65",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/65",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"65"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/66",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/66",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"66"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/68",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/68",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"68"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/74",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/74",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"74"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/starships/75",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/starships/75",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"75"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Vehicles",
+			"item": [
+				{
+					"name": "http://swapi.dev/api/vehicles/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/vehicles/",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/vehicles/4",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/vehicles/4",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://swapi.dev/api/vehicles/6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://swapi.dev/api/vehicles/6",
+							"protocol": "http",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/7",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/7",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/8",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/8",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/14",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/14",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"14"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/16",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/18",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"18"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/18",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/18",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"18"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/19",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/20",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/20",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"20"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/24",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/24",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"24"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/25",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/25",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"25"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/26",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/26",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"26"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/30",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/30",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"30"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/33",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/33",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"33"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/34",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/34",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"34"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/35",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/35",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"35"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/36",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/36",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"36"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/37",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/37",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"37"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/38",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/38",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"38"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/42",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/42",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"42"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/44",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/44",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"44"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/45",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/45",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"45"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/46",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/46",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"46"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/50",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/50",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"50"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/51",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/51",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"51"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/53",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/53",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"53"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/54",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/54",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"54"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/55",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/55",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"55"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/56",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/56",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"56"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/57",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/57",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"57"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/60",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/60",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"60"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/62",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/62",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"62"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/67",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/67",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"67"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/69",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/69",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"69"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/70",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/70",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"70"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/71",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/71",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"71"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/72",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/72",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"72"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/73",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/73",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"73"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://swapi.dev/api/vehicles/76",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/76",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								"76"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

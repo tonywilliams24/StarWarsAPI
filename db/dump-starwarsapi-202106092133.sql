@@ -58,7 +58,10 @@ DROP TABLE IF EXISTS `films_planets`;
 CREATE TABLE `films_planets` (
   `filmsid` int unsigned NOT NULL,
   `planetsid` int unsigned NOT NULL,
-  PRIMARY KEY (`filmsid`,`planetsid`)
+  PRIMARY KEY (`filmsid`,`planetsid`),
+  KEY `films_planets_FK_1` (`planetsid`),
+  CONSTRAINT `films_planets_FK` FOREIGN KEY (`filmsid`) REFERENCES `films` (`filmsid`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `films_planets_FK_1` FOREIGN KEY (`planetsid`) REFERENCES `planets` (`planetsid`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -81,7 +84,10 @@ DROP TABLE IF EXISTS `films_species`;
 CREATE TABLE `films_species` (
   `filmsid` int unsigned NOT NULL,
   `speciesid` int unsigned NOT NULL,
-  PRIMARY KEY (`filmsid`,`speciesid`)
+  PRIMARY KEY (`filmsid`,`speciesid`),
+  KEY `films_species_FK_1` (`speciesid`),
+  CONSTRAINT `films_species_FK` FOREIGN KEY (`filmsid`) REFERENCES `films` (`filmsid`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `films_species_FK_1` FOREIGN KEY (`speciesid`) REFERENCES `species` (`speciesid`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -104,7 +110,10 @@ DROP TABLE IF EXISTS `films_starships`;
 CREATE TABLE `films_starships` (
   `filmsid` int unsigned NOT NULL,
   `starshipsid` int unsigned NOT NULL,
-  PRIMARY KEY (`filmsid`,`starshipsid`)
+  PRIMARY KEY (`filmsid`,`starshipsid`),
+  KEY `films_starships_FK_1` (`starshipsid`),
+  CONSTRAINT `films_starships_FK` FOREIGN KEY (`filmsid`) REFERENCES `films` (`filmsid`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `films_starships_FK_1` FOREIGN KEY (`starshipsid`) REFERENCES `starships` (`starshipsid`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -127,7 +136,10 @@ DROP TABLE IF EXISTS `films_vehicles`;
 CREATE TABLE `films_vehicles` (
   `filmsid` int unsigned NOT NULL,
   `vehiclesid` int unsigned NOT NULL,
-  PRIMARY KEY (`filmsid`,`vehiclesid`)
+  PRIMARY KEY (`filmsid`,`vehiclesid`),
+  KEY `films_vehicles_FK_1` (`vehiclesid`),
+  CONSTRAINT `films_vehicles_FK` FOREIGN KEY (`filmsid`) REFERENCES `films` (`filmsid`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `films_vehicles_FK_1` FOREIGN KEY (`vehiclesid`) REFERENCES `vehicles` (`vehiclesid`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -186,7 +198,10 @@ DROP TABLE IF EXISTS `people_films`;
 CREATE TABLE `people_films` (
   `peopleid` int unsigned NOT NULL,
   `filmsid` int unsigned NOT NULL,
-  PRIMARY KEY (`peopleid`,`filmsid`)
+  PRIMARY KEY (`peopleid`,`filmsid`),
+  KEY `people_films_FK_1` (`filmsid`),
+  CONSTRAINT `people_films_FK` FOREIGN KEY (`peopleid`) REFERENCES `people` (`peopleid`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `people_films_FK_1` FOREIGN KEY (`filmsid`) REFERENCES `films` (`filmsid`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -209,7 +224,10 @@ DROP TABLE IF EXISTS `people_planets`;
 CREATE TABLE `people_planets` (
   `peopleid` int unsigned NOT NULL,
   `planetsid` int unsigned NOT NULL,
-  PRIMARY KEY (`peopleid`,`planetsid`)
+  PRIMARY KEY (`peopleid`,`planetsid`),
+  KEY `people_planets_FK_1` (`planetsid`),
+  CONSTRAINT `people_planets_FK` FOREIGN KEY (`peopleid`) REFERENCES `people` (`peopleid`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `people_planets_FK_1` FOREIGN KEY (`planetsid`) REFERENCES `planets` (`planetsid`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -232,7 +250,10 @@ DROP TABLE IF EXISTS `people_species`;
 CREATE TABLE `people_species` (
   `peopleid` int unsigned NOT NULL,
   `speciesid` int unsigned NOT NULL,
-  PRIMARY KEY (`peopleid`,`speciesid`)
+  PRIMARY KEY (`peopleid`,`speciesid`),
+  KEY `people_species_FK_1` (`speciesid`),
+  CONSTRAINT `people_species_FK` FOREIGN KEY (`peopleid`) REFERENCES `people` (`peopleid`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `people_species_FK_1` FOREIGN KEY (`speciesid`) REFERENCES `species` (`speciesid`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -255,7 +276,10 @@ DROP TABLE IF EXISTS `people_starships`;
 CREATE TABLE `people_starships` (
   `peopleid` int unsigned NOT NULL,
   `starshipsid` int unsigned NOT NULL,
-  PRIMARY KEY (`peopleid`,`starshipsid`)
+  PRIMARY KEY (`peopleid`,`starshipsid`),
+  KEY `people_starships_FK_1` (`starshipsid`),
+  CONSTRAINT `people_starships_FK` FOREIGN KEY (`peopleid`) REFERENCES `people` (`peopleid`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `people_starships_FK_1` FOREIGN KEY (`starshipsid`) REFERENCES `starships` (`starshipsid`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -277,7 +301,11 @@ DROP TABLE IF EXISTS `people_vehicles`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `people_vehicles` (
   `peopleid` int unsigned NOT NULL,
-  `speciesid` int unsigned NOT NULL
+  `vehiclesid` int unsigned NOT NULL,
+  KEY `people_vehicles_FK` (`peopleid`),
+  KEY `people_vehicles_FK_1` (`vehiclesid`),
+  CONSTRAINT `people_vehicles_FK` FOREIGN KEY (`peopleid`) REFERENCES `people` (`peopleid`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `people_vehicles_FK_1` FOREIGN KEY (`vehiclesid`) REFERENCES `vehicles` (`vehiclesid`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -346,7 +374,10 @@ CREATE TABLE `species` (
   `language` varchar(100) DEFAULT NULL,
   `created` varchar(100) DEFAULT NULL,
   `edited` varchar(100) DEFAULT NULL,
-  `url` varchar(100) DEFAULT NULL
+  `url` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`speciesid`),
+  KEY `species_speciesid_IDX` (`speciesid`) USING BTREE,
+  KEY `species_name_IDX` (`name`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -446,4 +477,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-06-09 14:58:43
+-- Dump completed on 2021-06-09 21:33:50
